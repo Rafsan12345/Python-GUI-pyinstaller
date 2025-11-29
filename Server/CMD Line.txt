@@ -1,0 +1,72 @@
+Microsoft Windows [Version 10.0.22000.2538]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\uiu>cd C:\Users\uiu\Desktop\TEST\Server
+
+C:\Users\uiu\Desktop\TEST\Server>pyinstaller --onefile --noconsole server.py
+319 INFO: PyInstaller: 6.17.0, contrib hooks: 2025.10
+320 INFO: Python: 3.10.11
+329 INFO: Platform: Windows-10-10.0.22000-SP0
+330 INFO: Python environment: C:\Users\uiu\AppData\Local\Programs\Python\Python310
+331 INFO: wrote C:\Users\uiu\Desktop\TEST\Server\server.spec
+345 INFO: Module search paths (PYTHONPATH):
+['C:\\Users\\uiu\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\pyinstaller.exe',
+ 'C:\\Users\\uiu\\AppData\\Local\\Programs\\Python\\Python310\\python310.zip',
+ 'C:\\Users\\uiu\\AppData\\Local\\Programs\\Python\\Python310\\DLLs',
+ 'C:\\Users\\uiu\\AppData\\Local\\Programs\\Python\\Python310\\lib',
+ 'C:\\Users\\uiu\\AppData\\Local\\Programs\\Python\\Python310',
+ 'C:\\Users\\uiu\\AppData\\Roaming\\Python\\Python310\\site-packages',
+ 'C:\\Users\\uiu\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages',
+ 'C:\\Users\\uiu\\Desktop\\TEST\\Server']
+1978 INFO: checking Analysis
+1978 INFO: Building Analysis because Analysis-00.toc is non existent
+1978 INFO: Looking for Python shared library...
+1979 INFO: Using Python shared library: C:\Users\uiu\AppData\Local\Programs\Python\Python310\python310.dll
+1979 INFO: Running Analysis Analysis-00.toc
+1979 INFO: Target bytecode optimization level: 0
+1979 INFO: Initializing module dependency graph...
+1979 INFO: Initializing module graph hook caches...
+2038 INFO: Analyzing modules for base_library.zip ...
+2946 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Users\\uiu\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\hooks'
+3084 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Users\\uiu\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\hooks'
+5192 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Users\\uiu\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\hooks'
+8364 INFO: Caching module dependency graph...
+8411 INFO: Analyzing C:\Users\uiu\Desktop\TEST\Server\server.py
+8699 INFO: Processing pre-find-module-path hook 'hook-tkinter.py' from 'C:\\Users\\uiu\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+8700 INFO: TclTkInfo: initializing cached Tcl/Tk info...
+9167 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\uiu\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\hooks'
+9268 INFO: Processing module hooks (post-graph stage)...
+9273 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\uiu\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\hooks'
+9287 INFO: Performing binary vs. data reclassification (923 entries)
+16855 INFO: Looking for ctypes DLLs
+16857 INFO: Analyzing run-time hooks ...
+16859 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Users\\uiu\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+16861 INFO: Including run-time hook 'pyi_rth__tkinter.py' from 'C:\\Users\\uiu\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+16894 INFO: Creating base_library.zip...
+16915 INFO: Looking for dynamic libraries
+17047 INFO: Extra DLL search directories (AddDllDirectory): []
+17047 INFO: Extra DLL search directories (PATH): []
+17748 INFO: Warnings written to C:\Users\uiu\Desktop\TEST\Server\build\server\warn-server.txt
+17771 INFO: Graph cross-reference written to C:\Users\uiu\Desktop\TEST\Server\build\server\xref-server.html
+17813 INFO: checking PYZ
+17813 INFO: Building PYZ because PYZ-00.toc is non existent
+17814 INFO: Building PYZ (ZlibArchive) C:\Users\uiu\Desktop\TEST\Server\build\server\PYZ-00.pyz
+17940 INFO: Building PYZ (ZlibArchive) C:\Users\uiu\Desktop\TEST\Server\build\server\PYZ-00.pyz completed successfully.
+17991 INFO: checking PKG
+17992 INFO: Building PKG because PKG-00.toc is non existent
+17993 INFO: Building PKG (CArchive) server.pkg
+20788 INFO: Building PKG (CArchive) server.pkg completed successfully.
+20813 INFO: Bootloader C:\Users\uiu\AppData\Local\Programs\Python\Python310\lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+20813 INFO: checking EXE
+20813 INFO: Building EXE because EXE-00.toc is non existent
+20814 INFO: Building EXE from EXE-00.toc
+20814 INFO: Copying bootloader EXE to C:\Users\uiu\Desktop\TEST\Server\dist\server.exe
+21049 INFO: Copying icon to EXE
+21108 INFO: Copying 0 resources to EXE
+21108 INFO: Embedding manifest in EXE
+21159 INFO: Appending PKG archive to EXE
+21222 INFO: Fixing EXE headers
+21535 INFO: Building EXE from EXE-00.toc completed successfully.
+21562 INFO: Build complete! The results are available in: C:\Users\uiu\Desktop\TEST\Server\dist
+
+C:\Users\uiu\Desktop\TEST\Server>
