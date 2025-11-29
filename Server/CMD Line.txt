@@ -69,4 +69,46 @@ C:\Users\uiu\Desktop\TEST\Server>pyinstaller --onefile --noconsole server.py
 21535 INFO: Building EXE from EXE-00.toc completed successfully.
 21562 INFO: Build complete! The results are available in: C:\Users\uiu\Desktop\TEST\Server\dist
 
+
 C:\Users\uiu\Desktop\TEST\Server>
+
+
+
+------------------------------------------------------------- stop server 
+
+
+Microsoft Windows [Version 10.0.26100.7171]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\UIU>taskkill /PID 1234 /F
+ERROR: The process "1234" not found.
+
+C:\Users\UIU>netstat -a -n -o | findstr :8000
+  TCP    0.0.0.0:8000           0.0.0.0:0              LISTENING       1888
+  TCP    10.15.26.179:8000      10.15.26.179:49192     TIME_WAIT       0
+  TCP    10.15.26.179:8000      10.15.26.179:56303     TIME_WAIT       0
+  TCP    10.15.26.179:8000      10.15.55.213:51487     TIME_WAIT       0
+  TCP    10.15.26.179:8000      10.15.55.213:51488     TIME_WAIT       0
+
+C:\Users\UIU>taskkill /PID 1888 /F
+SUCCESS: The process with PID 1888 has been terminated.
+
+C:\Users\UIU>netstat -a -n -o | findstr :8000
+
+C:\Users\UIU>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
